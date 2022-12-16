@@ -26,6 +26,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+   <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>3.2</version>
+      <scope>pom</scope>
+    </dependency>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
